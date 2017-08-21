@@ -10,9 +10,11 @@ The Arduino will have an Ethernet shield, because I already have one.  You could
 as well or any other communications link that would work.  We will send commands to the Arduino
 following a Restful API which will be defined.  Examples include:
 
-http://arduino/runs/create?id=105&setpoint=130&Kp=2&Ki=1&Kd=3
-http://arduino/runs/105/start
-http://arduino/runs/105/edit?setpoint=131?Kd=4
+    http://arduino/runs/create?id=105&setpoint=130&Kp=2&Ki=1&Kd=3
+	
+    http://arduino/runs/105/start
+    
+	http://arduino/runs/105/edit?setpoint=131?Kd=4
 
 You get the idea.
 
